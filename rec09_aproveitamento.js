@@ -17,8 +17,8 @@ function classificarAproveitamento(percentual) {
 const qtdTotal = entrada.questionFloat("Digite a quantidade total: ");
 const qtdUtil = entrada.questionFloat ("Digite a quantidade util: ");
 
-const aproveitamento = calcularAproveitamento(util, total);
-const classificacao = classificarAproveitamento(percentual);
+const aproveitamento = calcularAproveitamento(qtdUtil, qtdTotal);
+const classificacao = classificarAproveitamento(aproveitamento);
 
 console.log(`\n=== RELATORIO DE APROVEITAMENTO ===`);
 console.log(`Total: ${qtdTotal}`);
