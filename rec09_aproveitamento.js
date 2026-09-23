@@ -23,5 +23,5 @@ const classificacao = classificarAproveitamento(aproveitamento);
 console.log(`\n=== RELATORIO DE APROVEITAMENTO ===`);
 console.log(`Total: ${qtdTotal}`);
 console.log(`Quantidade Util: ${qtdUtil}`);
-console.log(`Aproveitamento: ${aproveitamento.toFixed(2)}%`);
+console.log(`Aproveitamento: ${aproveitamento}%`);
 console.log(`Classificação: ${classificacao}`);
